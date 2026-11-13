@@ -1,0 +1,3 @@
+comparison_id,A_zero_records,A_nonzero_records,B_zero_records,B_nonzero_records,conditional_odds_ratio,nominal_two_sided_Fisher_p
+1,52,169,2,30,4.615384615384615,0.034945391159763396
+2,9,68,2,19,1.2573529411764706,1

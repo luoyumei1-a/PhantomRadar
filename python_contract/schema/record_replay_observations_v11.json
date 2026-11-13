@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Explicit-clock record replay observations v11",
+  "description": "Software replay observations, not a hardware-failure acquisition schema. expected_s retains the source group-message clock used to schedule the replay. No missing scalar is replaced by zero or a negative health label.",
+  "type": "object",
+  "required": ["slot", "delivered", "expected_s", "payload_count", "payload_id", "capture_s", "publish_s"],
+  "properties": {
+    "slot": {"type": "integer", "minimum": 1},
+    "delivered": {"type": "boolean"},
+    "expected_s": {"type": ["number", "null"], "description": "Unmodified group-message timestamp relative to the source record's first message; declared replay schedule only."},
+    "payload_count": {"type": ["integer", "null"], "minimum": 0},
+    "payload_id": {"type": ["integer", "null"], "minimum": 1},
+    "capture_s": {"type": ["number", "null"], "description": "Declared software timestamp including stale/withheld controls; not a calibrated sensor acquisition timestamp."},
+    "publish_s": {"type": ["number", "null"], "description": "Declared software publication observation including offset/delay/drop controls."},
+    "period_s": {"type": "number", "exclusiveMinimum": 0},
+    "alpha": {"type": "number", "exclusiveMinimum": 0}
+  },
+  "additionalProperties": true
+}

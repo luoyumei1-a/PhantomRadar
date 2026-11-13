@@ -1,0 +1,32 @@
+{
+  "quantity": "nominal_single_transmitter_RF_power_budget",
+  "nominal_reference_dbm": 12.0,
+  "linear_power_fraction": 0.9,
+  "calculated_tx_dbm": 11.542425094393248,
+  "frequency_hz": 62000000000.0,
+  "analytical_tx_gain_dbi": 10.0,
+  "analytical_rx_gain_dbi": 10.0,
+  "additional_loss_db": 0.0,
+  "input_boundary_example_dbm": -42.0,
+  "receiver_gain_example_db": 48.0,
+  "power_reference": "TI IWR6843 datasheet typical RF output; not an absolute maximum rating",
+  "antenna_basis": "Analytical gain assumptions; board-specific antenna patterns are separate inputs",
+  "scope": "Conditional far-field power budget, not a calibrated exposure or receiver-fault label",
+  "platforms": {
+    "IWR6843": {
+      "frequency_hz": 62000000000.0,
+      "linear_power_fraction": 0.9,
+      "calculated_tx_dbm": 11.542425094393248,
+      "compression_at48dB_dbm": -42.0,
+      "required_rcs_intercept_dbsm": 5.745290557676164
+    },
+    "AWR1843": {
+      "frequency_hz": 77000000000.0,
+      "linear_power_fraction": 0.9,
+      "calculated_tx_dbm": 11.542425094393248,
+      "compression_at48dB_dbm": -46.5,
+      "required_rcs_intercept_dbsm": 3.1272712711607227
+    }
+  },
+  "source_for_v18_extended_geometry_and_active_parameters": "provenance/feasibility_v18/parameters.json"
+}

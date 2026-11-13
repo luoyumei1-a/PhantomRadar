@@ -1,0 +1,1 @@
+source_kind,device_id,session_id,trial_id,frame_id,capture_time_s,publish_time_s,expected_period_s,point_count,adc_clip_fraction,vendor_sat,queue_fraction,packet_loss,sensor_frame_counter,reference_qualified,region_point_count

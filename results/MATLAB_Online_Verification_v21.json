@@ -1,0 +1,227 @@
+{
+  "artifact_version": "PhantomRadar_v21",
+  "execution_environment": "MATLAB 26.2.0.3437455 (R2026b) Update 2",
+  "execution_context": "matlab_online",
+  "executed_source_sha256": "f1f94000a61fa4c55ffee2203348a6dad3c7d1805ec157f392054a94a77ac977",
+  "input_hashes": [
+    {
+      "filename": "coherent_adc_v12.mat",
+      "sha256": "24e6f31655f6d782a7a206ed1d00623c4b48202a0a4cd8fea14d24205c9ab299",
+      "bytes": 115726671.0
+    },
+    {
+      "filename": "qwerty_records_v15.mat",
+      "sha256": "5161b827aa68ba514475c663149e551132eef368c25420af57719cde9c8968ff",
+      "bytes": 3837080.0
+    },
+    {
+      "filename": "paired_radar_kinect_records_v12.mat",
+      "sha256": "258b2a41d6db35c81b7c2dc54f3fbb28b482d0974099169f08bb89b30488bf63",
+      "bytes": 91749
+    },
+    {
+      "filename": "supplemental_recordings_v11.mat",
+      "sha256": "627787b5c8ee928b81d1972524d97ebedc30f522f23cd694c4c24b4e10f99f02",
+      "bytes": 91150
+    },
+    {
+      "filename": "adc_inputs.mat",
+      "sha256": "316143f1c71a723b6ac207c42f498f95feadb54c5886d307f567c7721c09e585",
+      "bytes": 8481964.0
+    },
+    {
+      "filename": "cw_traces_v11.mat",
+      "sha256": "4e6edc01607c316c209e29bb959faeb02b565795b13f8af34159a4e35deb9fa4",
+      "bytes": 1491043.0
+    },
+    {
+      "filename": "iq_paired_records_v17.mat",
+      "sha256": "a15457f2428adf3a0f13b4952caa163040e89722510dab51fdbd2e34c5e7d16a",
+      "bytes": 43803
+    },
+    {
+      "filename": "environment_new_v19.mat",
+      "sha256": "470ec96033bb969d21baf4465d9a902671341852aad0d89aaf44a937fb7cca01",
+      "bytes": 27651537.0
+    }
+  ],
+  "meaningful_tests": [
+    {
+      "name": "cfar_guard_exclusion_and_single_peak",
+      "passed": true
+    },
+    {
+      "name": "cfar_power_scaling_equivariance",
+      "passed": true
+    },
+    {
+      "name": "cfar_untested_edges_remain_unavailable",
+      "passed": true
+    },
+    {
+      "name": "robust_blanking_preserves_inliers_and_replaces_extreme",
+      "passed": true
+    },
+    {
+      "name": "coherent_per_frame_peak_background_contrast_identity",
+      "passed": true
+    },
+    {
+      "name": "coherent_conditionA_peak_and_background_medians_match_independent_frame_audit",
+      "passed": true
+    },
+    {
+      "name": "paired_count_moments_match_independent_original_array_audit",
+      "passed": true
+    },
+    {
+      "name": "Fisher_exact_distribution_mass_and_independent_two_sided_probability",
+      "passed": true
+    },
+    {
+      "name": "negative_binomial_MLE_improves_Poisson_and_matches_independent_fit",
+      "passed": true
+    },
+    {
+      "name": "Figure18_block002_percent_is_four_of_twentyone_with_count_label",
+      "passed": true
+    },
+    {
+      "name": "linear_90_percent_power_conversion",
+      "passed": true
+    },
+    {
+      "name": "three_PO_Fraunhofer_geometry_eliminations",
+      "passed": true
+    },
+    {
+      "name": "all_nine_passive_intersections_close",
+      "passed": true
+    },
+    {
+      "name": "gain_threshold_shifts_preserved",
+      "passed": true
+    },
+    {
+      "name": "active_dB_and_linear_Friis_agree",
+      "passed": true
+    },
+    {
+      "name": "component_stability_and_output_caps",
+      "passed": true
+    },
+    {
+      "name": "one_stage_3m_shortfall_and_two_stage_3m_headroom",
+      "passed": true
+    },
+    {
+      "name": "equal_hop_range_limit_closure",
+      "passed": true
+    },
+    {
+      "name": "active_map_excludes_horn_near_field",
+      "passed": true
+    },
+    {
+      "name": "image_reference_equals_independent_two_R_Friis",
+      "passed": true
+    },
+    {
+      "name": "image_reference_crossings_close_receiver_thresholds",
+      "passed": true
+    },
+    {
+      "name": "direct_source_dB_and_linear_Friis_close_receiver_thresholds",
+      "passed": true
+    },
+    {
+      "name": "direct_source_equals_AF_final_hop_output_without_gain_or_isolation",
+      "passed": true
+    },
+    {
+      "name": "ODS_antenna_gain_sensitivity_closes_independent_linear_Friis",
+      "passed": true
+    },
+    {
+      "name": "ODS5_vs_directional10_gain_power_isolation_and_plane_distance_shifts",
+      "passed": true
+    },
+    {
+      "name": "all221_original_radar_rows_retained",
+      "passed": true
+    },
+    {
+      "name": "reference_conditioned_phantom52_of221",
+      "passed": true
+    },
+    {
+      "name": "torso_and_whole_cloud_baselines_zero_of221",
+      "passed": true
+    },
+    {
+      "name": "all15_original_block_extent_counts_match_independent_array_audit",
+      "passed": true
+    },
+    {
+      "name": "coherent_reference_calibration_held_out",
+      "passed": true
+    },
+    {
+      "name": "secondary32_original_radar_rows_retained",
+      "passed": true
+    },
+    {
+      "name": "secondary32_regional_baseline_counts",
+      "passed": true
+    },
+    {
+      "name": "secondary32_mapping_matches_independent_array_audit",
+      "passed": true
+    },
+    {
+      "name": "native_bag_preserves_all_payload_samples",
+      "passed": true
+    },
+    {
+      "name": "native_bag_stored_code_domain_not_rails",
+      "passed": true
+    },
+    {
+      "name": "native_bag_int64_nearest_association",
+      "passed": true
+    },
+    {
+      "name": "native_bag_source_indices_and_gates",
+      "passed": true
+    }
+  ],
+  "figure_order": [
+    "figure05_feasibility_interference",
+    "figure06_tracking",
+    "figure_feasibility_passive_v21",
+    "figure_feasibility_active_v21",
+    "figure_crossplatform",
+    "figure_region_distance",
+    "figure_cfar_contrast",
+    "figure_cfar_offlobe",
+    "figure_adc_spectral",
+    "figure_regional_translation",
+    "figure_regional_incidence",
+    "figure_cw_endpoints"
+  ],
+  "figure_roles": [
+    "Feasibility experiment 1",
+    "Feasibility experiment 2: all original returns and front-layer leg display boxes",
+    "Analytical passive-geometry and receiver-gain envelopes",
+    "Analytical catalog-component and stability feasibility envelope",
+    "Independent FMCW representation views",
+    "Reference-joint nearest-return distance",
+    "Corner-to-background contrast",
+    "Off-lobe CA-CFAR maxima",
+    "Native IF spectral profiles",
+    "Coordinate registration sensitivity",
+    "Reference-qualified record-level regional incidence",
+    "External CW recorded endpoint occupancy"
+  ],
+  "scope": "Actual MATLAB Online execution; full canonical input hashes are listed even where this public example view omits separate licensed/complete plotting inputs."
+}

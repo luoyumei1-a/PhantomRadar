@@ -1,0 +1,206 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Paired acquisition evidence references",
+  "description": "Metadata and provenance requirements; passing schema validation is not certification of a physical fault label.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "recordings"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "recordings": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "recording_id",
+          "source_kind",
+          "source_path",
+          "source_sha256",
+          "manufacturer",
+          "device_model",
+          "source_documentation_ref"
+        ],
+        "properties": {
+          "recording_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_kind": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_path": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_sha256": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "manufacturer": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "device_model": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_documentation_ref": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "selection": {
+            "type": "object"
+          },
+          "representation": {
+            "type": "object",
+            "properties": {
+              "native_sample_format": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "adc_bit_width": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 1,
+                "maximum": 32
+              },
+              "decoded_to_native_codes": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "rail_low": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "rail_high": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "decoder_ref": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "full_scale_calibration_ref": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "configuration": {
+            "type": "object",
+            "properties": {
+              "rx_gain_db": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "configuration_ref": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "clock_alignment_ref": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "observations": {
+            "type": "object",
+            "properties": {
+              "receiver_saturation": {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  },
+                  "collected": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "target_loss": {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  },
+                  "collected": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "hardware_damage": {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  },
+                  "collected": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

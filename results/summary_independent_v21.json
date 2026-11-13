@@ -1,0 +1,288 @@
+{
+  "fisher_table": [
+    [
+      52,
+      169
+    ],
+    [
+      2,
+      30
+    ]
+  ],
+  "fisher_odds_ratio": 4.615384615384615,
+  "fisher_two_sided_p": 0.03494539115976622,
+  "fisher_scope": "Nominal conditional test under independent stored-record sampling; within-block correlation and session/configuration confounding are not removed.",
+  "models": [
+    {
+      "group": "A-pooled",
+      "n_records": 221,
+      "leg_sum": 927,
+      "mean_leg_returns": 4.1945701357466065,
+      "sample_variance": 13.957424928013163,
+      "observed_zero_records": 52,
+      "observed_zero_fraction": 0.23529411764705882,
+      "poisson_zero_probability": 0.015077222228155775,
+      "poisson_expected_zero_records": 3.3320661124224262,
+      "nb_mom_shape": 1.8021796900671267,
+      "nb_zero_probability": 0.11456443896313309,
+      "nb_expected_zero_records": 25.318741010852413,
+      "NB_MLE_shape": 1.1470766229315743,
+      "NB_MLE_zero_probability": 0.17126077759063582,
+      "NB_MLE_expected_zero_records": 37.84863184753052,
+      "NB_log_likelihood_gain_over_Poisson": 142.1741017259593,
+      "min_leg_count": 0,
+      "max_leg_count": 20
+    },
+    {
+      "group": "A-000",
+      "n_records": 100,
+      "leg_sum": 418,
+      "mean_leg_returns": 4.18,
+      "sample_variance": 13.603636363636365,
+      "observed_zero_records": 23,
+      "observed_zero_fraction": 0.23,
+      "poisson_zero_probability": 0.015298507566725518,
+      "poisson_expected_zero_records": 1.5298507566725519,
+      "nb_mom_shape": 1.8541038008875161,
+      "nb_zero_probability": 0.11215308752667996,
+      "nb_expected_zero_records": 11.215308752667996,
+      "NB_MLE_shape": 1.1358222900473014,
+      "NB_MLE_zero_probability": 0.17326214082150776,
+      "NB_MLE_expected_zero_records": 17.326214082150777,
+      "NB_log_likelihood_gain_over_Poisson": 64.12008595247309,
+      "min_leg_count": 0,
+      "max_leg_count": 14
+    },
+    {
+      "group": "A-001",
+      "n_records": 100,
+      "leg_sum": 419,
+      "mean_leg_returns": 4.19,
+      "sample_variance": 15.266565656565655,
+      "observed_zero_records": 25,
+      "observed_zero_fraction": 0.25,
+      "poisson_zero_probability": 0.01514628487304698,
+      "poisson_expected_zero_records": 1.514628487304698,
+      "nb_mom_shape": 1.5849768370752708,
+      "nb_zero_probability": 0.12882263956186493,
+      "nb_expected_zero_records": 12.882263956186494,
+      "NB_MLE_shape": 1.0683134034438875,
+      "NB_MLE_zero_probability": 0.1822087542450274,
+      "NB_MLE_expected_zero_records": 18.22087542450274,
+      "NB_log_likelihood_gain_over_Poisson": 71.5110557379088,
+      "min_leg_count": 0,
+      "max_leg_count": 20
+    },
+    {
+      "group": "A-002",
+      "n_records": 21,
+      "leg_sum": 90,
+      "mean_leg_returns": 4.285714285714286,
+      "sample_variance": 10.614285714285714,
+      "observed_zero_records": 4,
+      "observed_zero_fraction": 0.19047619047619047,
+      "poisson_zero_probability": 0.013763786733050402,
+      "poisson_expected_zero_records": 0.2890395213940584,
+      "nb_mom_shape": 2.9022895840051595,
+      "nb_zero_probability": 0.07192540001645431,
+      "nb_expected_zero_records": 1.5104334003455406,
+      "NB_MLE_shape": 1.8294760087685193,
+      "NB_MLE_zero_probability": 0.10995177731104863,
+      "NB_MLE_expected_zero_records": 2.3089873235320213,
+      "NB_log_likelihood_gain_over_Poisson": 7.005162920493625,
+      "min_leg_count": 0,
+      "max_leg_count": 11
+    },
+    {
+      "group": "B-pooled",
+      "n_records": 32,
+      "leg_sum": 244,
+      "mean_leg_returns": 7.625,
+      "sample_variance": 27.85483870967742,
+      "observed_zero_records": 2,
+      "observed_zero_fraction": 0.0625,
+      "poisson_zero_probability": 0.000488095243523415,
+      "poisson_expected_zero_records": 0.01561904779274928,
+      "nb_mom_shape": 2.8740033884791707,
+      "nb_zero_probability": 0.024149656293102992,
+      "nb_expected_zero_records": 0.7727890013792957,
+      "NB_MLE_shape": 2.3340740774132898,
+      "NB_MLE_zero_probability": 0.03382905165965447,
+      "NB_MLE_expected_zero_records": 1.082529653108943,
+      "NB_log_likelihood_gain_over_Poisson": 22.405021710279783,
+      "min_leg_count": 0,
+      "max_leg_count": 19
+    },
+    {
+      "group": "B-000",
+      "n_records": 25,
+      "leg_sum": 205,
+      "mean_leg_returns": 8.2,
+      "sample_variance": 29.250000000000004,
+      "observed_zero_records": 2,
+      "observed_zero_fraction": 0.08,
+      "poisson_zero_probability": 0.00027465356997214254,
+      "poisson_expected_zero_records": 0.006866339249303563,
+      "nb_mom_shape": 3.1942992874109253,
+      "nb_zero_probability": 0.017208781261531927,
+      "nb_expected_zero_records": 0.43021953153829817,
+      "NB_MLE_shape": 2.3355422923985847,
+      "NB_MLE_zero_probability": 0.029643310899172704,
+      "NB_MLE_expected_zero_records": 0.7410827724793176,
+      "NB_log_likelihood_gain_over_Poisson": 17.591444259803964,
+      "min_leg_count": 0,
+      "max_leg_count": 19
+    },
+    {
+      "group": "B-001",
+      "n_records": 7,
+      "leg_sum": 39,
+      "mean_leg_returns": 5.571428571428571,
+      "sample_variance": 20.619047619047617,
+      "observed_zero_records": 0,
+      "observed_zero_fraction": 0.0,
+      "poisson_zero_probability": 0.003805040775511363,
+      "poisson_expected_zero_records": 0.02663528542857954,
+      "nb_mom_shape": 2.062839059674503,
+      "nb_zero_probability": 0.06724877308885199,
+      "nb_expected_zero_records": 0.4707414116219639,
+      "NB_MLE_shape": 3.179520984659099,
+      "NB_MLE_zero_probability": 0.03999312480208765,
+      "NB_MLE_expected_zero_records": 0.27995187361461354,
+      "NB_log_likelihood_gain_over_Poisson": 2.8851197594492106,
+      "min_leg_count": 1,
+      "max_leg_count": 15
+    }
+  ],
+  "fig18_zero_counts": [
+    165,
+    111,
+    52,
+    18,
+    4
+  ],
+  "figure18_block002_base_percent": 19.047619047619047,
+  "point_density_strata": [
+    {
+      "cohort": "A",
+      "min_whole_cloud": 20,
+      "max_whole_cloud": 29,
+      "n_records": 81,
+      "zero_leg_records": 30
+    },
+    {
+      "cohort": "A",
+      "min_whole_cloud": 30,
+      "max_whole_cloud": 39,
+      "n_records": 122,
+      "zero_leg_records": 21
+    },
+    {
+      "cohort": "A",
+      "min_whole_cloud": 40,
+      "max_whole_cloud": 49,
+      "n_records": 18,
+      "zero_leg_records": 1
+    },
+    {
+      "cohort": "A",
+      "min_whole_cloud": 50,
+      "max_whole_cloud": 60,
+      "n_records": 0,
+      "zero_leg_records": 0
+    },
+    {
+      "cohort": "B",
+      "min_whole_cloud": 20,
+      "max_whole_cloud": 29,
+      "n_records": 0,
+      "zero_leg_records": 0
+    },
+    {
+      "cohort": "B",
+      "min_whole_cloud": 30,
+      "max_whole_cloud": 39,
+      "n_records": 7,
+      "zero_leg_records": 1
+    },
+    {
+      "cohort": "B",
+      "min_whole_cloud": 40,
+      "max_whole_cloud": 49,
+      "n_records": 16,
+      "zero_leg_records": 1
+    },
+    {
+      "cohort": "B",
+      "min_whole_cloud": 50,
+      "max_whole_cloud": 60,
+      "n_records": 9,
+      "zero_leg_records": 0
+    }
+  ],
+  "density_overlap_34_47": [
+    {
+      "cohort": "A",
+      "n_records": 77,
+      "zero_leg_records": 9
+    },
+    {
+      "cohort": "B",
+      "n_records": 21,
+      "zero_leg_records": 2
+    }
+  ],
+  "active_ODS5_horn25_at3m": [
+    {
+      "range_m": 3,
+      "configured_RX_gain_db": 30,
+      "victim_antenna_gain_dbi": 5,
+      "horn_gain_dbi": 25,
+      "AF_input_dbm": -36.29561701184845,
+      "final_hop_transfer_db": -47.8380421062417,
+      "required_AF_gain_db": 60.13365911809015,
+      "required_output_or_direct_Pa_dbm": 23.8380421062417,
+      "direct_Pa_mW": 241.99378402983032,
+      "direct_EIRP_dbm": 48.8380421062417,
+      "minimum_isolation_db": 66.13365911809015,
+      "H1_at_I40": -30.13365911809015,
+      "H2_at_I40": -26.13365911809015,
+      "H2_at_I60": -6.133659118090151,
+      "plane_crossing_m": 0.036417523442789104
+    },
+    {
+      "range_m": 3,
+      "configured_RX_gain_db": 40,
+      "victim_antenna_gain_dbi": 5,
+      "horn_gain_dbi": 25,
+      "AF_input_dbm": -36.29561701184845,
+      "final_hop_transfer_db": -47.8380421062417,
+      "required_AF_gain_db": 50.13365911809015,
+      "required_output_or_direct_Pa_dbm": 13.838042106241701,
+      "direct_Pa_mW": 24.199378402983033,
+      "direct_EIRP_dbm": 38.8380421062417,
+      "minimum_isolation_db": 56.13365911809015,
+      "H1_at_I40": -20.13365911809015,
+      "H2_at_I40": -16.13365911809015,
+      "H2_at_I60": 3.8663408819098493,
+      "plane_crossing_m": 0.11516232082179025
+    },
+    {
+      "range_m": 3,
+      "configured_RX_gain_db": 48,
+      "victim_antenna_gain_dbi": 5,
+      "horn_gain_dbi": 25,
+      "AF_input_dbm": -36.29561701184845,
+      "final_hop_transfer_db": -47.8380421062417,
+      "required_AF_gain_db": 42.13365911809015,
+      "required_output_or_direct_Pa_dbm": 5.838042106241701,
+      "direct_Pa_mW": 3.8353430092678296,
+      "direct_EIRP_dbm": 30.8380421062417,
+      "minimum_isolation_db": 48.13365911809015,
+      "H1_at_I40": -12.13365911809015,
+      "H2_at_I40": -8.13365911809015,
+      "H2_at_I60": 11.86634088190985,
+      "plane_crossing_m": 0.2892746710934083
+    }
+  ]
+}

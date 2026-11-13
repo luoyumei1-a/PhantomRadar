@@ -1,0 +1,23 @@
+{
+  "title": "77-GHz FMCW Radar Network ADC Data under Various Interference Scenarios at Parking Lot",
+  "creators": [
+    {
+      "name": "Rienessl, Lukas",
+      "affiliation": "Johannes Kepler University of Linz",
+      "orcid": "0009-0002-0886-0489"
+    },
+    {
+      "name": "Feger, Reinhard",
+      "affiliation": null,
+      "orcid": "0000-0001-7372-6230"
+    }
+  ],
+  "doi": "10.5281/zenodo.21933926",
+  "source": "https://zenodo.org/records/21933926",
+  "license": "CC BY4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "scope": "Exact existing retained IF excerpt, not new author-collected62GHz data; native public source76\u201377GHz.",
+  "public_record_license_field": {
+    "id": "cc-by-4.0"
+  }
+}

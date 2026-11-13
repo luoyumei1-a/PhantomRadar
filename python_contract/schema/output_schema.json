@@ -1,0 +1,39 @@
+{
+  "frame_diagnostics_columns": [
+    "source_kind",
+    "device_id",
+    "session_id",
+    "trial_id",
+    "frame_id",
+    "capture_time_s",
+    "publish_time_s",
+    "expected_period_s",
+    "point_count",
+    "adc_clip_fraction",
+    "queue_fraction",
+    "packet_loss",
+    "vendor_sat",
+    "sensor_frame_counter",
+    "reference_qualified",
+    "region_point_count",
+    "counter_gap_flag",
+    "adc_clipping_flag",
+    "vendor_saturation_flag",
+    "receiver_evidence_flag",
+    "publication_latency_s",
+    "publication_late_flag",
+    "queue_pressure_flag",
+    "transport_gap_flag",
+    "empty_output_flag",
+    "regional_support_flag",
+    "observable_state",
+    "observable_reasons",
+    "output_interpretation"
+  ],
+  "observable_state_values": [
+    "VALID",
+    "DEGRADED",
+    "UNKNOWN"
+  ],
+  "valid_meaning": "All declared required observations are available and negative for their violation predicates; this does not infer a receiver mechanism or broader task safety."
+}

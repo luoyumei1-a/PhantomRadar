@@ -1,0 +1,6 @@
+{
+  "adc_clip_fraction_threshold": 0.01,
+  "recovery_consecutive_frames": 3,
+  "recovery_max_capture_gap_factor": 2.0,
+  "required_flags": ["receiver_evidence", "regional_support"]
+}

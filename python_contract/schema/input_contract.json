@@ -1,0 +1,94 @@
+{
+  "format": "UTF-8 CSV; UTF-8 BOM accepted",
+  "schema_version": "0.2.0",
+  "interface": "normalized_telemetry",
+  "required_columns": [
+    "source_kind",
+    "device_id",
+    "session_id",
+    "trial_id",
+    "frame_id",
+    "capture_time_s",
+    "publish_time_s",
+    "expected_period_s",
+    "point_count",
+    "adc_clip_fraction",
+    "vendor_sat",
+    "queue_fraction",
+    "packet_loss"
+  ],
+  "optional_columns": [
+    "sensor_frame_counter",
+    "reference_qualified",
+    "region_point_count"
+  ],
+  "source_kind_enum": [
+    "measurement",
+    "synthetic_demo"
+  ],
+  "nullable_fields": [
+    "publish_time_s",
+    "point_count",
+    "adc_clip_fraction",
+    "vendor_sat",
+    "queue_fraction",
+    "packet_loss",
+    "sensor_frame_counter",
+    "reference_qualified",
+    "region_point_count"
+  ],
+  "missing_value_representation": "Blank nullable cells only; zero remains observed; nonfinite numeric values are rejected.",
+  "nonempty_string_fields": [
+    "source_kind",
+    "device_id",
+    "session_id",
+    "trial_id"
+  ],
+  "nonnegative_integer_fields": [
+    "frame_id",
+    "point_count",
+    "sensor_frame_counter",
+    "region_point_count"
+  ],
+  "nonnegative_time_fields": [
+    "capture_time_s",
+    "publish_time_s"
+  ],
+  "strictly_positive_fields": [
+    "expected_period_s"
+  ],
+  "closed_unit_interval_fields": [
+    "adc_clip_fraction",
+    "queue_fraction",
+    "packet_loss"
+  ],
+  "nullable_boolean_fields": {
+    "vendor_sat": [
+      "0",
+      "1",
+      "false",
+      "true"
+    ],
+    "reference_qualified": [
+      "0",
+      "1",
+      "false",
+      "true"
+    ]
+  },
+  "unique_key": [
+    "device_id",
+    "session_id",
+    "trial_id",
+    "frame_id"
+  ],
+  "clock_contract": "Capture/publication values must already use a documented common clock; publication before capture is rejected.",
+  "source_contract": "One source_kind per input file. synthetic_demo requires --demo; measurement cannot use --demo.",
+  "other_columns": "Ignored by this reader; preserve original inputs and their provenance separately.",
+  "not_accepted_as_source_kind": [
+    "recorded_points_controlled_record_replay"
+  ],
+  "source_kind_authentication": "Provider declaration only, not cryptographic proof of physical acquisition.",
+  "minimum_expected_period_s": 1e-09,
+  "regional_contract": "A predeclared region, independent reference qualification and source association must support these optional observations. True qualification plus observed zero region points is a violation; missing or false qualification leaves regional support unknown."
+}
