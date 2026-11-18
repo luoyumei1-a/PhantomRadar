@@ -18,6 +18,8 @@ Extract this repository and open its root in MATLAB R2024b or later. Run the sin
 PhantomRadar_figure_v22
 ```
 
+For the exact Figure 9 SVG on MATLAB Online, run `PhantomRadar_figure_v22([],[],[],true)`. This path reads the measured coordinates and emits the vector independently of MATLAB’s interactive graphics driver. The paper uses a vector PDF conversion of this SVG.
+
 The plotting order follows the paper. Figures 1–4 are editable artwork in the companion slide deck. Figure 5 uses the external reference capture listed below. Figure 6 uses the recorded regional example, followed by the empirical distance distribution in Figure 7, the coordinate-shift comparison in Figure 8 and the range plot in Figure 9. The output directory also contains one observation per record.
 
 Figure 6 includes the published two-dimensional projection. The public run redraws the measured returns, reference skeleton, and display box separately as `figure06_numeric_layers`. An author with the original permitted `qwerty_records_v15.mat` can supply its path as the third argument to re-render the full three-dimensional background. The closed-form regional checks and range summaries use each stored radar point and reference joint.

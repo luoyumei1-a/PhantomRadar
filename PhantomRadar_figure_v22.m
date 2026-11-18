@@ -1,15 +1,15 @@
-function summary = PhantomRadar_figure_v22(dataDir,outDir,privateMeshInput)
+function summary = PhantomRadar_figure_v22(dataDir,outDir,privateMeshInput,rangeOnly)
 % Recreate the paper's recorded-data plots in manuscript order (MATLAB R2024b+).
 % Unzip the companion code/data package, then call PhantomRadar_figure_v22().
 % For full native re-rendering of the private Figure 6 background, supply
 % the original qwerty_records_v15.mat as the optional third argument.
 if nargin < 3, privateMeshInput = ''; end
+if nargin < 4, rangeOnly = false; end
 root = fileparts(mfilename('fullpath'));
 if nargin < 1 || isempty(dataDir), dataDir = fullfile(root,'data'); end
 if nargin < 2 || isempty(outDir), outDir = fullfile(root,'output'); end
 if ~isfolder(outDir), mkdir(outDir); end
 D = load(fullfile(dataDir,'registered_geometry.mat'));
-E = load(fullfile(dataDir,'external_plot_examples.mat'));
 n = numel(D.radar);
 cohort = D.cohort(:);
 block = D.block(:);
@@ -39,6 +39,12 @@ range = vecnorm(centres - D.radar_translation,2,2);
 summary = table(cohort,block,index,legCount,distance,range, ...
     'VariableNames',{'collection','block','record','leg_returns','joint_to_return_m','reference_range_m'});
 writetable(summary,fullfile(outDir,'regional_observations.csv'));
+% Optional numeric-only path for a MATLAB session without a graphics server.
+if rangeOnly
+    writeRangeSVG(range,primary,outDir);
+    return
+end
+E = load(fullfile(dataDir,'external_plot_examples.mat'));
 % Figs. 1–4 are editable framework artwork. The first independent data figure
 % is an attributed reference measurement. Figures 6–9 concern author records.
 interferenceExample(E,outDir);                                  % Figure 5
@@ -253,6 +259,7 @@ exportPlot(fig,outDir,'figure_regional_translation');
 end
 
 function rangeCoverage(range,primary,outDir)
+writeRangeSVG(range,primary,outDir);
 fig = newFigure(9.7,6.1);
 colors = [55 103 149;231 98 84]/255;
 for panel = 1:2
@@ -308,4 +315,42 @@ for ext = [".pdf",".png"]
     copyfile(fullfile(tempDir,file),fullfile(outDir,file),'f');
 end
 close(fig);
+end
+
+function writeRangeSVG(range,primary,outDir)
+% Render the empirical spans and individual observations in a portable vector.
+fid = fopen(fullfile(outDir,'figure_range_coverage.svg'),'wt');
+assert(fid>=0,'Cannot open the vector output');
+finish = onCleanup(@()fclose(fid));
+fprintf(fid,'<svg xmlns="http://www.w3.org/2000/svg" width="370" height="232" viewBox="0 0 370 232"><rect width="370" height="232" fill="white"/><g font-family="Times New Roman, Liberation Serif, serif" font-size="13" fill="#262626">');
+colors = {'#376795','#e76254'};
+names = {'Primary','Additional'};
+for panel = 1:2
+    top = 8+(panel-1)*114;
+    if panel==1
+        xpos = @(d) 77+272*(log(d)-log(.1))/(log(30)-log(.1));
+        ticks = [.1 .3 1 3 10 30];
+        label = 'Reference range (m, log scale)';
+    else
+        xpos = @(d) 77+272*(d-1.59)/(2.03-1.59);
+        ticks = 1.6:.1:2;
+        label = 'Detail of the observed range (m)';
+    end
+    fprintf(fid,'<rect x="77" y="%g" width="272" height="53" fill="none" stroke="#444"/>',top);
+    for t=ticks
+        x=xpos(t);
+        fprintf(fid,'<path d="M%.3f %.2f v53" stroke="#d6d6d6" stroke-width=".65"/><text x="%.3f" y="%g" text-anchor="middle">%g</text>',x,top,x,top+70,t);
+    end
+    fprintf(fid,'<text x="213" y="%g" text-anchor="middle" font-weight="bold">%s</text>',top+89,label);
+    for j=1:2
+        v=sort(range(primary==(j==1)));
+        x=xpos(v(:)); y=top+13+(j-1)*26;
+        fprintf(fid,'<text x="70" y="%g" text-anchor="end">%s</text>',y+4,names{j});
+        fprintf(fid,'<path d="M%.3f %g H%.3f" stroke="%s" stroke-width="1.5"/>',x(1),y,x(end),colors{j});
+        fprintf(fid,'<path stroke="%s" d="',colors{j});
+        fprintf(fid,'M%.3f %.2f v7 ',[x';repmat(y-3.5,1,numel(x))]);
+        fprintf(fid,'"/><path d="M%.3f %g l4 4 -4 4 -4 -4 z" fill="%s" stroke="#212121" stroke-width=".6"/>',xpos(median(v)),y-4,colors{j});
+    end
+end
+fprintf(fid,'</g></svg>');
 end
