@@ -1,0 +1,21 @@
+{
+  "discordant": 69,
+  "empty_mean_cm": 10.407311200399295,
+  "empty_minus_supported_cm": 0.33437316044992293,
+  "equal_error": 0,
+  "larger_error_when_empty": 39,
+  "median_paired_diff_cm": 0.27865603168961517,
+  "n_files": 125,
+  "native_mean_cm": 10.61903801630568,
+  "offline_mean_cm": 10.773857754568473,
+  "parent_count": 5,
+  "prior_mean_cm": 10.04482339684594,
+  "support_by_parent": {
+    "0": 32,
+    "1": 28,
+    "2": 25,
+    "3": 21,
+    "6": 19
+  },
+  "supported_mean_cm": 10.072938039949374
+}

@@ -1,0 +1,7 @@
+cohort,radius_m,n,nominal_box_empty,capsule_union_empty,both_empty
+A,0.1,221,52,43,30
+A,0.15,221,52,15,13
+A,0.2,221,52,7,7
+B,0.1,32,2,14,2
+B,0.15,32,2,2,1
+B,0.2,32,2,1,0

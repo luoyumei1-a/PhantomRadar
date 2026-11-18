@@ -1,0 +1,445 @@
+{
+  "all": {
+    "nominal": {
+      "n": 125,
+      "table": [
+        [
+          5,
+          1
+        ],
+        [
+          68,
+          51
+        ]
+      ],
+      "native_n_range": [
+        24,
+        67
+      ],
+      "offline_n_range": [
+        2,
+        36
+      ],
+      "native_n_median": 42.0,
+      "offline_n_median": 14.0
+    },
+    "stored": {
+      "n": 125,
+      "table": [
+        [
+          15,
+          17
+        ],
+        [
+          61,
+          32
+        ]
+      ],
+      "native_n_range": [
+        24,
+        67
+      ],
+      "offline_n_range": [
+        2,
+        36
+      ],
+      "native_n_median": 42.0,
+      "offline_n_median": 14.0
+    },
+    "overlap_B": 0
+  },
+  "excluding_B": {
+    "nominal": {
+      "n": 125,
+      "table": [
+        [
+          5,
+          1
+        ],
+        [
+          68,
+          51
+        ]
+      ],
+      "native_n_range": [
+        24,
+        67
+      ],
+      "offline_n_range": [
+        2,
+        36
+      ],
+      "native_n_median": 42.0,
+      "offline_n_median": 14.0
+    },
+    "stored": {
+      "n": 125,
+      "table": [
+        [
+          15,
+          17
+        ],
+        [
+          61,
+          32
+        ]
+      ],
+      "native_n_range": [
+        24,
+        67
+      ],
+      "offline_n_range": [
+        2,
+        36
+      ],
+      "native_n_median": 42.0,
+      "offline_n_median": 14.0
+    },
+    "overlap_B": 0
+  },
+  "blocks": {
+    "0/000": {
+      "nominal": {
+        "n": 25,
+        "table": [
+          [
+            1,
+            0
+          ],
+          [
+            16,
+            8
+          ]
+        ],
+        "native_n_range": [
+          34,
+          63
+        ],
+        "offline_n_range": [
+          2,
+          26
+        ],
+        "native_n_median": 48.0,
+        "offline_n_median": 13.0
+      },
+      "stored": {
+        "n": 25,
+        "table": [
+          [
+            4,
+            2
+          ],
+          [
+            17,
+            2
+          ]
+        ],
+        "native_n_range": [
+          34,
+          63
+        ],
+        "offline_n_range": [
+          2,
+          26
+        ],
+        "native_n_median": 48.0,
+        "offline_n_median": 13.0
+      },
+      "overlap_B": 0
+    },
+    "0/001": {
+      "nominal": {
+        "n": 7,
+        "table": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "native_n_range": [
+          34,
+          51
+        ],
+        "offline_n_range": [
+          6,
+          21
+        ],
+        "native_n_median": 46.0,
+        "offline_n_median": 10.0
+      },
+      "stored": {
+        "n": 7,
+        "table": [
+          [
+            1,
+            0
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "native_n_range": [
+          34,
+          51
+        ],
+        "offline_n_range": [
+          6,
+          21
+        ],
+        "native_n_median": 46.0,
+        "offline_n_median": 10.0
+      },
+      "overlap_B": 0
+    },
+    "1/000": {
+      "nominal": {
+        "n": 25,
+        "table": [
+          [
+            1,
+            0
+          ],
+          [
+            20,
+            4
+          ]
+        ],
+        "native_n_range": [
+          30,
+          67
+        ],
+        "offline_n_range": [
+          6,
+          17
+        ],
+        "native_n_median": 43.0,
+        "offline_n_median": 9.0
+      },
+      "stored": {
+        "n": 25,
+        "table": [
+          [
+            4,
+            2
+          ],
+          [
+            17,
+            2
+          ]
+        ],
+        "native_n_range": [
+          30,
+          67
+        ],
+        "offline_n_range": [
+          6,
+          17
+        ],
+        "native_n_median": 43.0,
+        "offline_n_median": 9.0
+      },
+      "overlap_B": 0
+    },
+    "1/001": {
+      "nominal": {
+        "n": 3,
+        "table": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "native_n_range": [
+          27,
+          41
+        ],
+        "offline_n_range": [
+          3,
+          17
+        ],
+        "native_n_median": 33.0,
+        "offline_n_median": 8.0
+      },
+      "stored": {
+        "n": 3,
+        "table": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "native_n_range": [
+          27,
+          41
+        ],
+        "offline_n_range": [
+          3,
+          17
+        ],
+        "native_n_median": 33.0,
+        "offline_n_median": 8.0
+      },
+      "overlap_B": 0
+    },
+    "2/000": {
+      "nominal": {
+        "n": 25,
+        "table": [
+          [
+            3,
+            0
+          ],
+          [
+            7,
+            15
+          ]
+        ],
+        "native_n_range": [
+          24,
+          58
+        ],
+        "offline_n_range": [
+          7,
+          23
+        ],
+        "native_n_median": 41.0,
+        "offline_n_median": 14.0
+      },
+      "stored": {
+        "n": 25,
+        "table": [
+          [
+            2,
+            5
+          ],
+          [
+            6,
+            12
+          ]
+        ],
+        "native_n_range": [
+          24,
+          58
+        ],
+        "offline_n_range": [
+          7,
+          23
+        ],
+        "native_n_median": 41.0,
+        "offline_n_median": 14.0
+      },
+      "overlap_B": 0
+    },
+    "3/000": {
+      "nominal": {
+        "n": 21,
+        "table": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            18
+          ]
+        ],
+        "native_n_range": [
+          24,
+          54
+        ],
+        "offline_n_range": [
+          9,
+          22
+        ],
+        "native_n_median": 40.0,
+        "offline_n_median": 18.0
+      },
+      "stored": {
+        "n": 21,
+        "table": [
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            12
+          ]
+        ],
+        "native_n_range": [
+          24,
+          54
+        ],
+        "offline_n_range": [
+          9,
+          22
+        ],
+        "native_n_median": 40.0,
+        "offline_n_median": 18.0
+      },
+      "overlap_B": 0
+    },
+    "6/000": {
+      "nominal": {
+        "n": 19,
+        "table": [
+          [
+            0,
+            0
+          ],
+          [
+            14,
+            5
+          ]
+        ],
+        "native_n_range": [
+          30,
+          49
+        ],
+        "offline_n_range": [
+          9,
+          36
+        ],
+        "native_n_median": 40.0,
+        "offline_n_median": 20.0
+      },
+      "stored": {
+        "n": 19,
+        "table": [
+          [
+            2,
+            1
+          ],
+          [
+            13,
+            3
+          ]
+        ],
+        "native_n_range": [
+          30,
+          49
+        ],
+        "offline_n_range": [
+          9,
+          36
+        ],
+        "native_n_median": 40.0,
+        "offline_n_median": 20.0
+      },
+      "overlap_B": 0
+    }
+  }
+}

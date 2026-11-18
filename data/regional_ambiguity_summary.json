@@ -1,0 +1,128 @@
+{
+  "A": {
+    "records": 221,
+    "n_zero": 52,
+    "all_shifts_zero": 37,
+    "common_point_all_shifts": 132,
+    "mixed_block_count_strata": 29,
+    "n_in_those_strata": 160,
+    "n_zero_those_strata": 43,
+    "min_classification_errors_using_only_total_count_and_block": 41,
+    "cloud_size_20_33": [
+      43,
+      144
+    ],
+    "cloud_size_34_47": [
+      9,
+      77
+    ]
+  },
+  "B": {
+    "records": 32,
+    "n_zero": 2,
+    "all_shifts_zero": 0,
+    "common_point_all_shifts": 26,
+    "mixed_block_count_strata": 1,
+    "n_in_those_strata": 2,
+    "n_zero_those_strata": 1,
+    "min_classification_errors_using_only_total_count_and_block": 1,
+    "cloud_size_20_33": [
+      0,
+      0
+    ],
+    "cloud_size_34_47": [
+      2,
+      21
+    ]
+  },
+  "A-000": {
+    "records": 100,
+    "n_zero": 23,
+    "all_shifts_zero": 17,
+    "common_point_all_shifts": 58,
+    "mixed_block_count_strata": 13,
+    "n_in_those_strata": 83,
+    "n_zero_those_strata": 20,
+    "min_classification_errors_using_only_total_count_and_block": 20,
+    "cloud_size_20_33": [
+      20,
+      78
+    ],
+    "cloud_size_34_47": [
+      3,
+      22
+    ]
+  },
+  "A-001": {
+    "records": 100,
+    "n_zero": 25,
+    "all_shifts_zero": 17,
+    "common_point_all_shifts": 59,
+    "mixed_block_count_strata": 14,
+    "n_in_those_strata": 73,
+    "n_zero_those_strata": 21,
+    "min_classification_errors_using_only_total_count_and_block": 19,
+    "cloud_size_20_33": [
+      19,
+      52
+    ],
+    "cloud_size_34_47": [
+      6,
+      48
+    ]
+  },
+  "A-002": {
+    "records": 21,
+    "n_zero": 4,
+    "all_shifts_zero": 3,
+    "common_point_all_shifts": 15,
+    "mixed_block_count_strata": 2,
+    "n_in_those_strata": 4,
+    "n_zero_those_strata": 2,
+    "min_classification_errors_using_only_total_count_and_block": 2,
+    "cloud_size_20_33": [
+      4,
+      14
+    ],
+    "cloud_size_34_47": [
+      0,
+      7
+    ]
+  },
+  "B-000": {
+    "records": 25,
+    "n_zero": 2,
+    "all_shifts_zero": 0,
+    "common_point_all_shifts": 20,
+    "mixed_block_count_strata": 1,
+    "n_in_those_strata": 2,
+    "n_zero_those_strata": 1,
+    "min_classification_errors_using_only_total_count_and_block": 1,
+    "cloud_size_20_33": [
+      0,
+      0
+    ],
+    "cloud_size_34_47": [
+      2,
+      16
+    ]
+  },
+  "B-001": {
+    "records": 7,
+    "n_zero": 0,
+    "all_shifts_zero": 0,
+    "common_point_all_shifts": 6,
+    "mixed_block_count_strata": 0,
+    "n_in_those_strata": 0,
+    "n_zero_those_strata": 0,
+    "min_classification_errors_using_only_total_count_and_block": 0,
+    "cloud_size_20_33": [
+      0,
+      0
+    ],
+    "cloud_size_34_47": [
+      0,
+      5
+    ]
+  }
+}

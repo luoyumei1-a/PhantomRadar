@@ -1,0 +1,142 @@
+{
+  "output": "environment_new_v19.mat",
+  "bytes": 27650282,
+  "sha256": "45212293b19aab3520b2dac7e313fb8a1ba5b0fec8b74df25153093eb1749a48",
+  "parts": [
+    {
+      "name": "capture-01.bin",
+      "bytes": 1048576,
+      "sha256": "5336f3bdd9203d662410727dcfebbfa6c00f01e562a3a5fd6205ff5f58735b34"
+    },
+    {
+      "name": "capture-02.bin",
+      "bytes": 1048576,
+      "sha256": "3035ec3940bcc6d2b9c51b45c490600d8966f3414b3bf5a445165571eba72618"
+    },
+    {
+      "name": "capture-03.bin",
+      "bytes": 1048576,
+      "sha256": "be4e54ab16e4ef71f6449685bb2bccd962d0c6a75a833129cb48c4ab6d81af9a"
+    },
+    {
+      "name": "capture-04.bin",
+      "bytes": 1048576,
+      "sha256": "54a66e8e130f0aabb61e21dc8b55ae92e56cc2382940c80ab430120d3452cbdc"
+    },
+    {
+      "name": "capture-05.bin",
+      "bytes": 1048576,
+      "sha256": "404df491bb4390ed02d1f7606fb85b6cde810a9f62a093cc6c2d06a24e020ef1"
+    },
+    {
+      "name": "capture-06.bin",
+      "bytes": 1048576,
+      "sha256": "2adcb58be60cf14e7e8ccbd23045acdec7fdf13ddee72b55b5075f68224367b7"
+    },
+    {
+      "name": "capture-07.bin",
+      "bytes": 1048576,
+      "sha256": "9da4b23a7334dfae8e9bbce7353b310807f4894249afcc49023d336c48123d51"
+    },
+    {
+      "name": "capture-08.bin",
+      "bytes": 1048576,
+      "sha256": "38e5016496fdc226d2b6c50d4deb80c7236b55496a5d30677983f8f0640efe41"
+    },
+    {
+      "name": "capture-09.bin",
+      "bytes": 1048576,
+      "sha256": "4d9553def30b499d5fecae3641e71e0de88e1b03e6f4ff378df93124fec5c946"
+    },
+    {
+      "name": "capture-10.bin",
+      "bytes": 1048576,
+      "sha256": "4f4ae18a2e8415bf401fa4959dd28ee04e7ba1dd08c270ccfff16f2f2bcd909c"
+    },
+    {
+      "name": "capture-11.bin",
+      "bytes": 1048576,
+      "sha256": "9e46eaae30cbbb21b91ea2c5b013cfcc9ea9337b62b7c30575454632dd947c11"
+    },
+    {
+      "name": "capture-12.bin",
+      "bytes": 1048576,
+      "sha256": "2a9fca42043f9f28e0e68cca17e60ff25c05beac798d91c1d8fa19e1404d3d17"
+    },
+    {
+      "name": "capture-13.bin",
+      "bytes": 1048576,
+      "sha256": "c99d3cdfb110c01d52db2a71aaf023896414c95199524c73826ebd797bf5565f"
+    },
+    {
+      "name": "capture-14.bin",
+      "bytes": 1048576,
+      "sha256": "58d49f2edfbf1716fe818fc2c7204aadc0fc6e0821086c762fcf344d5fbb598a"
+    },
+    {
+      "name": "capture-15.bin",
+      "bytes": 1048576,
+      "sha256": "e9d6194536376d19febc72c8232a519826cb94da2358b9a0396ef0234cce124c"
+    },
+    {
+      "name": "capture-16.bin",
+      "bytes": 1048576,
+      "sha256": "149fd7add6e6743a2e1cbe9b5a8d0a9ee3b0a078ef94b2609354836ab2f5efc8"
+    },
+    {
+      "name": "capture-17.bin",
+      "bytes": 1048576,
+      "sha256": "1dcaa23fa23ca003e3f247166f426f5c1af88a4811da0d47a650a43de037c89a"
+    },
+    {
+      "name": "capture-18.bin",
+      "bytes": 1048576,
+      "sha256": "68915f182a0ca5a7e697631cf835cedbd4665c7cd7cae87583780eba527c34c5"
+    },
+    {
+      "name": "capture-19.bin",
+      "bytes": 1048576,
+      "sha256": "d429e2afa3faefd9e05c734f30caf932411077d2a2a094665b5cd9551eeff18f"
+    },
+    {
+      "name": "capture-20.bin",
+      "bytes": 1048576,
+      "sha256": "dfcb09d305873e31945f614552efb05229beed6cc86fa8e6fa2fdc8e4402433c"
+    },
+    {
+      "name": "capture-21.bin",
+      "bytes": 1048576,
+      "sha256": "d9d892d066622118f705125de221d23ff2985b8cd52dfb75d53388ded9683506"
+    },
+    {
+      "name": "capture-22.bin",
+      "bytes": 1048576,
+      "sha256": "b8807da8c8d42e61d4ca3e0fc5e6ec607e7272c0a1920f8b3c71b326d522219c"
+    },
+    {
+      "name": "capture-23.bin",
+      "bytes": 1048576,
+      "sha256": "643ee1ce6e9b1bbb50d8d7daaa6692351c805767695f9fedd26e710049b0cea5"
+    },
+    {
+      "name": "capture-24.bin",
+      "bytes": 1048576,
+      "sha256": "5cc0f8f5bd1f4dff3c28c049a816ec04cb3f85c0caae33599dbcab04ee382640"
+    },
+    {
+      "name": "capture-25.bin",
+      "bytes": 1048576,
+      "sha256": "fffca8e1c3f3497a6bc8998d43914df5d241cfc0ee93e25c430154cf29dbe672"
+    },
+    {
+      "name": "capture-26.bin",
+      "bytes": 1048576,
+      "sha256": "74ab20c5cdb606a7fd7cbe9a2b2b457d6424c5e0c62f8f9efbfdb54ddb16deaf"
+    },
+    {
+      "name": "capture-27.bin",
+      "bytes": 387306,
+      "sha256": "fd7a4d70038b9883dcc7393f75fe8049a6c161f659a2824de8972aa01433c833"
+    }
+  ]
+}

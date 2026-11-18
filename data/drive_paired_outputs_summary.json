@@ -1,0 +1,194 @@
+{
+  "drive_side": {
+    "nominal": {
+      "n": 7,
+      "table": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          7
+        ]
+      ],
+      "native_n_range": [
+        27,
+        65
+      ],
+      "offline_n_range": [
+        4,
+        19
+      ],
+      "native_n_median": 36.0,
+      "offline_n_median": 11.0
+    },
+    "as_stored": {
+      "n": 7,
+      "table": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          7
+        ]
+      ],
+      "native_n_range": [
+        27,
+        65
+      ],
+      "offline_n_range": [
+        4,
+        19
+      ],
+      "native_n_median": 36.0,
+      "offline_n_median": 11.0
+    }
+  },
+  "drive_top": {
+    "nominal": {
+      "n": 13,
+      "table": [
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ]
+      ],
+      "native_n_range": [
+        13,
+        48
+      ],
+      "offline_n_range": [
+        19,
+        42
+      ],
+      "native_n_median": 31.0,
+      "offline_n_median": 22.0
+    },
+    "as_stored": {
+      "n": 13,
+      "table": [
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ]
+      ],
+      "native_n_range": [
+        13,
+        48
+      ],
+      "offline_n_range": [
+        19,
+        42
+      ],
+      "native_n_median": 31.0,
+      "offline_n_median": 22.0
+    }
+  },
+  "drive_all": {
+    "nominal": {
+      "n": 20,
+      "table": [
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          14
+        ]
+      ],
+      "native_n_range": [
+        13,
+        65
+      ],
+      "offline_n_range": [
+        4,
+        42
+      ],
+      "native_n_median": 33.0,
+      "offline_n_median": 20.0
+    },
+    "as_stored": {
+      "n": 20,
+      "table": [
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          14
+        ]
+      ],
+      "native_n_range": [
+        13,
+        65
+      ],
+      "offline_n_range": [
+        4,
+        42
+      ],
+      "native_n_median": 33.0,
+      "offline_n_median": 20.0
+    }
+  },
+  "B": {
+    "nominal": {
+      "n": 32,
+      "table": [
+        [
+          2,
+          0
+        ],
+        [
+          30,
+          0
+        ]
+      ],
+      "native_n_range": [
+        34,
+        60
+      ],
+      "offline_n_range": [
+        4,
+        27
+      ],
+      "native_n_median": 43.5,
+      "offline_n_median": 15.0
+    },
+    "as_stored": {
+      "n": 32,
+      "table": [
+        [
+          3,
+          0
+        ],
+        [
+          29,
+          0
+        ]
+      ],
+      "native_n_range": [
+        34,
+        60
+      ],
+      "offline_n_range": [
+        4,
+        27
+      ],
+      "native_n_median": 43.5,
+      "offline_n_median": 15.0
+    }
+  }
+}
